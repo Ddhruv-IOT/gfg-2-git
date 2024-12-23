@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "GFG Problem Downloader",
+    "version": "1.0",
+    "description": "Download GFG problem statements and solutions.",
+    "permissions": ["activeTab", "downloads", "scripting"],
+    "host_permissions": ["https://www.geeksforgeeks.org/problems/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
